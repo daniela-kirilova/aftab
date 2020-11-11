@@ -1,0 +1,26 @@
+.carousel-inner {
+  width: 92% !important;
+  padding-left: 180px;
+}
+.carousel-control-prev {
+  left: 100px !important;
+}
+
+.carousel-control-prev {
+  right: 100px !important;
+}
+@media only screen and (max-width: 768px) {
+  .carousel-inner {
+    width: 100% !important;
+    padding-left: 1px;
+    padding-right: 1px;
+  }
+
+  .carousel-control-prev {
+    left: 50px !important;
+  }
+
+  .carousel-control-prev {
+    right: 50px !important;
+  }
+}

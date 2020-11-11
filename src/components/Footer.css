@@ -1,0 +1,26 @@
+footer{
+     background-color: #343a40 ;   
+    height: 65px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;     
+    text-align: center;
+   }
+  
+  .insta{
+    padding-bottom: 55px;
+    padding-top: 5px;
+   }
+  .footer-wrapper{ 
+
+  display: flex;
+    justify-content: center;
+     height: 350px;
+  }
+  .footer-icons{
+    font-size: 20pt;
+    color: rgb(187, 161, 121);
+padding-right: 1em;
+padding-left: 1em;
+   }

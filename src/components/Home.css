@@ -1,0 +1,59 @@
+.text-wrapper {
+  background-image: url("../images/backgr.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 760px;
+}
+
+.text { 
+   
+  padding-top: 150px;
+  color: rgb(104, 96, 84);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.texP {
+  color: rgb(104, 96, 84);
+    padding-left: 35px;
+  padding-right: 35px;
+padding-top: 25px;
+  font-size: 26pt;
+  font-weight: 100;
+}
+hr {
+  vertical-align: center;
+   
+  width: 50em;
+  
+}
+
+@media only screen and (max-width: 768px) {
+
+  .text-wrapper {
+    background-image: url("../images/backgr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 260px;
+  }
+  
+  .text { 
+    padding: 7px;
+    color: rgb(70, 60, 41);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .texP {   
+    font-size: 18pt;
+    font-weight: 100;
+  }
+  hr {
+    padding-top: 20em;
+    vertical-align: center;     
+    width: 15em;
+    
+  }
+}
