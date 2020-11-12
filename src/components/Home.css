@@ -22,12 +22,7 @@ padding-top: 25px;
   font-size: 26pt;
   font-weight: 100;
 }
-hr {
-  vertical-align: center;
-   
-  width: 50em;
-  
-}
+ 
 
 @media only screen and (max-width: 768px) {
 
@@ -50,10 +45,6 @@ hr {
     font-size: 18pt;
     font-weight: 100;
   }
-  hr {
-    padding-top: 20em;
-    vertical-align: center;     
-    width: 15em;
-    
-  }
+ 
+  
 }

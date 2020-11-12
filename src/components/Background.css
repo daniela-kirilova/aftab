@@ -1,13 +1,24 @@
 .carousel-inner {
   width: 92% !important;
-  padding-left: 180px;
+  padding-left: 170px;
 }
 .carousel-control-prev {
   left: 100px !important;
 }
 
-.carousel-control-prev {
+.carousel-control-next {
   right: 100px !important;
+}
+.carousel h3, .carousel p{
+  color: rgb(146, 130, 100);
+}
+.goToContact{
+  font-weight: bold;
+
+  color: rgb(187, 161, 121);
+}
+.goToContact:hover{
+  color: rgb(141, 100, 38);
 }
 @media only screen and (max-width: 768px) {
   .carousel-inner {
@@ -20,7 +31,7 @@
     left: 50px !important;
   }
 
-  .carousel-control-prev {
+  .carousel-control-next {
     right: 50px !important;
   }
 }
