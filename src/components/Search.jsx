@@ -25,15 +25,18 @@ export default class Gallery extends Component {
     });
     return (
       <div className="input-wrapper">
-        <input
-          type="text"
-          name="search"
-          className="search"
-          value={this.state.title}
-          placeholder="search "
-          onChange={this.handleChange}
-        />
-
+        <div className="searchInput">
+          <i className="icon-search"></i>
+          <input
+            type="text"
+            name="search"
+            className="search"
+            value={this.state.title}
+            placeholder="برای جستجو عبارتی را تایپ کنید"
+            onChange={this.handleChange}
+          />
+        </div>
+        <hr />
         <div>
           <div>
             {filtered.map((e, i) => {
@@ -41,7 +44,9 @@ export default class Gallery extends Component {
             })}
           </div>
         </div>
-        {filtered.length === 0 && <h1>Sorry, we couldn't find any trips</h1>}
+        {filtered.length === 0 && (
+          <h1>متاسفیم موردی مناسب با جستجوی شما یافت نشد</h1>
+        )}
       </div>
     );
   }

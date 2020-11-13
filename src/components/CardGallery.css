@@ -1,177 +1,211 @@
-body{
-    background-color: #DFE7EF;
-  }
-  
+body {
+  background-color: #dfe7ef;
+}
 
-.productList{
-    display:flex;
-    justify-content: center;
+.productList {
+  display: flex;
+  justify-content: center;
 }
 
 .productCard {
-    
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: start;
+  width: 60%;
+  height: 400px;
+  background-color: #343a40;
+  border-radius: 10px;
+  color: rgb(32, 11, 51);
+  font-family: "Baloo Tammudu 2", cursive, "Segoe UI", "Roboto";
+}
+
+.zoom {
+  width: 330px;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.8);
+}
+.cardInfo {
+  color: rgb(104, 96, 84);
+  text-align: right;
+  margin: 15px;
+  padding: 15px;
+  width: 800px;
+  height: 200px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+.productTitle {
+  color: rgb(68, 60, 47);
+  font-size: 22px;
+  font-weight: 600;
+  text-align: right;
+}
+.productDescription {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+}
+.productInfo {
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(104, 96, 84);
+ 
+  text-align: right;
+}
+
+.productInfo:hover {
+  color: rgb(141, 100, 38);
+}
+@media only screen and (max-width: 768px) {
+  .productList {
+    display: flex;
+    justify-content: center;
+  }
+
+  .productCard {
     margin-top: 20px;
     margin-bottom: 20px;
-    display:flex;
-    justify-content: start;
-    width: 60%;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 580px;
     background-color: #343a40;
     border-radius: 10px;
     color: rgb(32, 11, 51);
-    font-family: 'Baloo Tammudu 2', cursive,'Segoe UI', 'Roboto' ; 
-}
+    font-family: "Baloo Tammudu 2", cursive, "Segoe UI", "Roboto";
+  }
 
- 
-.zoom {
-    width: 330px;
+  .zoom {
+    width: 400px;
+    height: 350px;
     padding: 15px;
-    transition: transform .2s;
-}
-.zoom:hover{
-    transform: scale(1.8);
-}
-.cardInfo {
-    color: rgb(104, 96, 84);
-    text-align: right;
-    margin:15px;
-    padding: 15px;
-    width: 800px;
-    height: 150px;
-    background-color:#eeeeee;
-    border-radius: 10px;
-}
-.cardInfo h5 {
-    color: rgb(85, 74, 57); 
-    font-size: 23px;
-    font-weight: 600;
-    margin:0;
-    text-align: right;
-}
-
-.galleryHeading{
-    color: rgb(104, 96, 84);
     display: flex;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  }
+
+  .cardInfo {
+    margin: 15px;
+    padding: 15px;
+    width: 420px;
+    height: 250px;
+    background-color: #faf5f2;
+    border-radius: 10px;
+  }
+  .productTitle {
+    color: rgb(85, 74, 57);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+  }
+  .productDescription {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+  }
 }
-@media only screen and (max-width: 768px) {
-   
-    .productList{
-        display:flex;
-        justify-content:  center;
-    }
+@media only screen and (max-width: 478px) {
+  .productList {
+    display: flex;
+    justify-content: center;
+  }
 
-    .productCard {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 580px;
-        height: 580px;
-       background-color: #343a40;
-        border-radius: 10px;
-        color: rgb(32, 11, 51);
-        font-family: 'Baloo Tammudu 2', cursive,'Segoe UI', 'Roboto' ; 
-    }
+  .productCard {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 430px;
+    background-color: #343a40;
+    border-radius: 10px;
+    color: rgb(32, 11, 51);
+    font-family: "Baloo Tammudu 2", cursive, "Segoe UI", "Roboto";
+  }
 
-    .zoom {
-     width: 400px;
-        height: 350px;
-        padding: 15px;
-       display: flex;
-       justify-content: center;
-    }
+  .zoom {
+    width: 220px;
+    height: 195px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
 
-    .cardInfo {
-        margin:15px;
-        padding: 15px;
-        width: 420px;
-        height: 250px;
-        background-color:#FAF5F2;
-        border-radius: 10px;
-    }
+  .cardInfo {
+    margin: 15px;
+    padding: 15px;
+    width: 220px;
+    height: 210px;
+    background-color: #faf5f2;
+    border-radius: 10px;
+  }
+  .productTitle {
+    color: rgb(85, 74, 57);
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+  }
+  .productDescription {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+  }
 }
-  @media only screen and (max-width: 478px) {
-   
-    .productList{
-        display:flex;
-        justify-content:  center;
-    }
 
-    .productCard {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 280px;
-        height: 400px;
-       background-color: #343a40;
-        border-radius: 10px;
-        color: rgb(32, 11, 51);
-        font-family: 'Baloo Tammudu 2', cursive,'Segoe UI', 'Roboto' ; 
-    }
+@media only screen and (min-width: 960x) {
+  .productList {
+    display: flex;
+    justify-content: center;
+  }
 
-    .zoom {
-     width: 220px;
-        height: 180px;
-        padding: 15px;
-       display: flex;
-       justify-content: center;
-    }
+  .productCard {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 680px;
+    background-color: #343a40;
+    border-radius: 10px;
+    color: rgb(32, 11, 51);
+    font-family: "Baloo Tammudu 2", cursive, "Segoe UI", "Roboto";
+  }
 
-    .cardInfo {
-        margin:15px;
-        padding: 15px;
-        width: 220px;
-        height: 150px;
-        background-color:#FAF5F2;
-        border-radius: 10px;
-    }
+  .zoom {
+    width: 400px;
+    height: 350px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardInfo {
+    margin: 15px;
+    padding: 15px;
+    width: 520px;
+    height: 350px;
+    background-color: #faf5f2;
+    border-radius: 10px;
+  }
+  .productTitle {
+    color: rgb(85, 74, 57);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: right;
+  }
+  .productDescription {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+  }
 }
-  
-  @media only screen and (min-width: 960x) {
-   
-    .productList{
-        display:flex;
-        justify-content:  center;
-    }
-
-    .productCard {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 580px;
-        height: 680px;
-       background-color: #343a40;
-        border-radius: 10px;
-        color: rgb(32, 11, 51);
-        font-family: 'Baloo Tammudu 2', cursive,'Segoe UI', 'Roboto' ; 
-    }
-
-    .zoom {
-     width: 400px;
-        height: 350px;
-        padding: 15px;
-       display: flex;
-       justify-content: center;
-    }
-
-    .cardInfo {
-        margin:15px;
-        padding: 15px;
-        width: 520px;
-        height: 350px;
-        background-color:#FAF5F2;
-        border-radius: 10px;
-    }
- 
-  }  

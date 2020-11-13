@@ -1,165 +1,134 @@
-import img1  from "./../productImgs/img1.jpg"
-import img2  from "./../productImgs/img2.jpg"
-import img3  from "./../productImgs/img3"
-import img4 from "./../productImgs/img4"
-import img5  from "./../productImgs/img5"
-import img6  from "./../productImgs/img6"
-import img7 from "./../productImgs/img7"
-import img8  from "./../productImgs/img8"
-import img9  from "./../productImgs/img9"
-import img10  from "./../productImgs/img10"
-import img11  from "./../productImgs/img12"
-import img12  from "./../productImgs/img12"
-import img13  from "./../productImgs/img13"
-import img14  from "./../productImgs/img14"
-import img15  from "./../productImgs/img15"
-import img16  from "./../productImgs/img16"
-import img17  from "./../productImgs/img17"
-import img18  from "./../productImgs/img18"
-import img19  from "./../productImgs/img19"
-import img20  from "./../productImgs/img20"
- 
+import img1 from "./../productImgs/img1";
+import img2 from "./../productImgs/img2";
+import img3 from "./../productImgs/img3";
+import img4 from "./../productImgs/img4";
+import img5 from "./../productImgs/img5";
+import img6 from "./../productImgs/img6";
+
+import img8 from "./../productImgs/img8";
+import img9 from "./../productImgs/img9";
+import img10 from "./../productImgs/img10";
+import img11 from "./../productImgs/img11";
+import img12 from "./../productImgs/img12";
+import img13 from "./../productImgs/img13";
+import img14 from "./../productImgs/img14";
+import img15 from "./../productImgs/img15";
+import img16 from "./../productImgs/img16";
+import img17 from "./../productImgs/img17";
+
 export let galleryData = [
   {
     imgFile: img1,
-    title: "Lamp1",
-    description: "blie lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "آباژور طرح توپی‌کریستالی پایه ایفل",
+    description: "description",
+    altTitle: "آباژور طرح توپی‌کریستالی پایه ایفل",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img2,
-    altTitle: "blabla",
-    description: "blie lamp woth bldfjd", 
-    title: "lamp2",
-    info: "for more info about product and price dont hesitate to contact us",
+    altTitle: "آباژور طرح کاپ آنتیک",
+    description: "description",
+    title: "آباژور طرح کاپ آنتیک",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img3,
-    title: "lamp3",
-    description: "blie lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "آباژور پاتختی طرح دوزلی کریستالی",
+    description: "description",
+    altTitle: "آباژور پاتختی طرح دوزلی کریستالی",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
-    imgFile:  img4,
-    title: "lam42",
-    altTitle: "blabla",
-    description: "blie lamp woth bldfjd", 
-    info: "for more info about product and price dont hesitate to contact us",
+    imgFile: img4,
+    title: "آباژور پاتختی طرح گرد سوز کریستالی کوچک",
+    altTitle: "آباژور پاتختی طرح گرد سوز کریستالی کوچک",
+    description: "description",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img5,
-    title: "lamp21",
-    altTitle: "blabla",
-    description: "blie lamp woth bldfjd", 
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "آباژور پاتختی طرح ایفل کریستالی",
+    altTitle: "آباژور پاتختی طرح ایفل کریستالی",
+    description: "description",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img6,
-    title: "lamp22",
-    description: "brown lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "آباژور طرح ایفل شیشه آنتیک",
+    description: "description",
+    altTitle: "آباژور طرح ایفل شیشه آنتیک",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
-    imgFile:  img7,
-    title: "lamp24",
-    description: "blie lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
-  },
-  {
-    imgFile:  img8,
-    title: "lamp62",
-    description: "blue lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    imgFile: img8,
+    title: "آباژور رومیزی کریستالی طرح پایه گل‌دار (a3)",
+    description: "description",
+    altTitle: "آباژور رومیزی کریستالی طرح پایه گل‌دار (a3)",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img9,
-    title: "lamp25",
-    description: "blie lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "آباژور رومیزی کریستالی طرح پایه گل‌دار (A3) با کلاهک گنبدی تاج دار",
+    description: "description",
+    altTitle:
+      "آباژور رومیزی کریستالی طرح پایه گل‌دار (A3) با کلاهک گنبدی تاج دار",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img10,
-    title: "lamp12",
-    altTitle: "blabla",
-    description: "brown lamp woth bldfjd", 
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "آباژور رومیزی طرح کریستالی A1",
+    altTitle: "آباژور رومیزی طرح کریستالی A1",
+    description: "brown lamp woth bldfjd",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img11,
-    title: "lamp2",  
-    description: "blie lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "آباژور بلوری A2",
+    description: "description",
+    altTitle: "آباژور بلوری A2",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img12,
-    title: "lamp52",
-    description: "blue lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "آباژور پاتختی کریستالی طرح دوزلی",
+    description: "description",
+    altTitle: "آباژور پاتختی کریستالی طرح دوزلی",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img13,
-    title: "lamp62",
-    description: "red lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
-  }, 
+    title: "آباژور پاتختی طرح هرم کریستالی پایه هگی",
+    description: "red lamp woth bldfjd",
+    altTitle: "آباژور پاتختی طرح هرم کریستالی پایه هگی",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
+  },
   {
     imgFile: img14,
-    title: "lamp23",
-    description: "blie lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "آباژور بلوری A1 با  کلاهک گنبدی تاج دار",
+    description: "description",
+    altTitle: "آباژور بلوری A1 با  کلاهک گنبدی تاج دار",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img15,
-    title: "lamp32",
-    description: "blie lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "کنار سالنی آویز خور در رنگ های آنتیک ، طلایی ، کروم",
+    description: "description",
+    altTitle: "کنار سالنی آویز خور در رنگ های آنتیک ، طلایی ، کروم",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img16,
-    title: "lamp32",
-    description: "blie lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "شمعدانی جفتی کریستال توپی پایه آنتیک",
+    description: "description",
+    altTitle: "شمعدانی جفتی کریستال توپی پایه آنتیک",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
   {
     imgFile: img17,
-    title: "lamp332",
-    description: "blue lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
+    title: "شمعدانی سه تایی طرح پله ای",
+    description: "description",
+    altTitle: "شمعدانی سه تایی طرح پله ای",
+    info: "برای اطلاعات بیشتر و سفارش لطفا با ما در ارتباط باشید",
   },
-  {
-    imgFile: img18,
-    title: "lamp266",
-    description: "red lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
-  },
-  {
-    imgFile: img19,
-    title: "lamp442",
-    description: "orange lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
-  },
-  {
-    imgFile: img20,
-    title: "lamp552",
-    description: "black lamp woth bldfjd", 
-    altTitle: "blabla",
-    info: "for more info about product and price dont hesitate to contact us",
-  },
-
-
 ];
+ 

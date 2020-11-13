@@ -14,9 +14,9 @@ const CardGallery = (props) => {
 
           <div className="cardInfo">
             <div>
-              <h5 className="productTitle">{props.data.title}</h5>
-              <h6 className="productInfo"> {props.data.description}</h6>
-              <h7 className="productInfo"> {props.data.info}</h7>
+              <h3 className="productTitle">{props.data.title}</h3>
+              <h4 className="productDescription"> {props.data.description}</h4>
+              <h6 > <a className="productInfo" href="/contact" >{props.data.info}</a></h6>
             </div>
           </div>     
       </div>
