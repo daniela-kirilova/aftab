@@ -6,7 +6,7 @@ const CardGallery = (props) => {
   return (
     
     <section className="productList">
-       
+      
 
       <div className="productCard">        
           <img className='zoom' src={props.img} alt={props.data.altTitle} />
@@ -16,7 +16,7 @@ const CardGallery = (props) => {
             <div>
               <h3 className="productTitle">{props.data.title}</h3>
               <h4 className="productDescription"> {props.data.description}</h4>
-              <h6 > <a className="productInfo" href="/contact" >{props.data.info}</a></h6>
+            
             </div>
           </div>     
       </div>

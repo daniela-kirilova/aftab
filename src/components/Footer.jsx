@@ -10,8 +10,8 @@ export default class Footer extends Component {
             <i className="icon-phone">09143116058</i>
           </div>
 
-          <a className="insta" href="https://www.instagram.com/ali.adljou/" target="_blank">
-            <img src={Instagram} alt='instagram'></img>
+          <a href="https://www.instagram.com/ali.adljou/" target="_blank" rel="noopener noreferrer">
+            <img className="insta"  src={Instagram} alt='instagram'></img>
           </a>
 
         
