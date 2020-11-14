@@ -14,7 +14,7 @@ export default class Contact extends Component {
     return (
       <div>
         <ContactUs />
-        <h1 className="callus"> برای کسب اطلاعات با ما تماس بگیرید</h1>
+        <h1 className="callus">  برای کسب اطلاعات با ما تماس بگیرید</h1>
 
         <div className="contact-background">
           <section className="contact-data">
